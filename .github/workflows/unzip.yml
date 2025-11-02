@@ -2,7 +2,7 @@ name: Extract Zip File
 on:
   push:
     paths:
-      - '**.zip'
+      - '**package.zip'
 
 jobs:
   unzip:
